@@ -1,3 +1,15 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Layout from '../components/layout'
+
+const IndexPage =  () => {
+    return(
+        <Layout>
+            <p>Hello!</p>
+            <h1>We are Digital Design and Development Company</h1>
+            <button>Start now</button>
+        </Layout>
+    )
+}
+
+export default IndexPage;
